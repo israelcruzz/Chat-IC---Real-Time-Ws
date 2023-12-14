@@ -39,8 +39,9 @@ Este aplicativo de chat em tempo real proporciona aos usuários uma plataforma i
 1. Clone o repositório: `git clone https://github.com/your-username/real-time-chat-app.git`
 2. Navegue até o diretório do projeto: `cd real-time-chat-app`
 3. Entre na pasta do backend pelo `cd backend`
-4. Digite "npm start" no terminal para iniciar o servidor(Verifique se a porta está sendo usada).
-5. Abra o arquivo `index.html` em um navegador da web.
+4. Instale no terminal pelo npm as bibliotecas "ws" e "dotenv"
+5. Digite "npm start" no terminal para iniciar o servidor(Verifique se a porta está sendo usada).
+6. Abra o arquivo `index.html` em um navegador da web.
 
 ## Uso
 
