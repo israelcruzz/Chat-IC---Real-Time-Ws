@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,400;1,6..12,500&family=Poppins:wght@300;400;500;600;700;800&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/style/style.css" />
+
+    <title>Chat</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="login">
+        <header class="porfile-nav">
+          <h1 class="perfil-porfile">Perfil</h1>
+        </header>
+
+        <form class="form-login">
+          <div class="photo-login">
+            <img class="profile-image" src="./src/images/avatar-login.png" />
+            <input type="file" class="profilePic" accept="image/*"/>
+          </div>
+
+          <div class="name-login">
+            <label for="name" class="label-name">Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-name"
+              placeholder="Digite seu Nome"
+              required
+            />
+          </div>
+
+          <button type="submit" class="login-button">Entrar</button>
+        </form>
+      </section>
+
+      <section class="chat">
+        <div class="messages">
+          <!-- <div class="self-message">
+                    Olá Mundo
+                </div>
+
+                <div class="other-message">
+                    <span class="message-sender"> Israel Cruz </span>
+                    Olá Mundo 
+                </div> -->
+        </div>
+        <form class="chat-form">
+          <input
+            type="text"
+            class="chat-input"
+            placeholder="Digite uma mensagem"
+            required
+          />
+          <button type="submit" class="chat-button">
+            <span class="material-symbols-outlined">send</span>
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
